@@ -1,4 +1,4 @@
-fetch("https://kodi-novinky-api.onrender.com/novinky?key=tajnykluc123")
+fetch(fetch("https://kodi-novinky-api.onrender.com/novinky?key=tajnykluc123"))
   .then(res => res.json())
   .then(data => {
     const content = document.getElementById('content');
